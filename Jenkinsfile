@@ -21,8 +21,6 @@ pipeline {
             }
 }
 }
-<<<<<<< HEAD
-=======
 post {
         failure {
             withCredentials([usernamePassword(
@@ -40,5 +38,4 @@ post {
         }
     }
 }
->>>>>>> 724913c... activate push and hook fix
 }
